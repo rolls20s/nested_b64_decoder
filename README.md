@@ -1,8 +1,8 @@
 # phish_decode
-Decodes repeatedly encoded JS base64 strings for de-obfuscating HTML phishing attachments. 
+Decodes repeatedly encoded JS base64 strings for de-obfuscating HTML phishing attachments.
 
 
-Usage: 
+Usage:
 
 phish_decode.py [-h] -f FILE [-r ROUNDS]  
 Flag | Description
@@ -14,5 +14,5 @@ Flag | Description
 
 
 TODO:
-- [ ] Add additional string types.
-- [ ] Improve auto-detection/make phish message agnostic
+- [ ] Add support for additional encoding types.
+- [ ] Improve auto-detection/make message-agnostic
